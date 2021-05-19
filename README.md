@@ -12,6 +12,7 @@
 
 - [primitive types](primitive%20types/index.js)
 - [NaN](NaN.js)
+- [cero negativo](NegativeCero.js)
 
 ## 📚Cursos
 - [Fundamentos profundos de JavaScript, v3 | FrontendMasters](https://frontendmasters.com/courses/deep-javascript-v3/)
