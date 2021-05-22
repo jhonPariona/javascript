@@ -15,6 +15,7 @@
 - [cero negativo](NegativeCero.js)
 - [Tipos de referencia](tipoReferencia.js)
 - [Objeto](Objetos.js)
+- [Array](array.js)
 
 ## 📚Cursos
 - [Fundamentos profundos de JavaScript, v3 | FrontendMasters](https://frontendmasters.com/courses/deep-javascript-v3/)
