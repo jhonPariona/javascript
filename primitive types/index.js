@@ -27,19 +27,16 @@ console.log(typeof v); /* symbol */
 /* -------------------------------------------------------------------------- */
 /*                           curiosidades de typeof                           */
 /* -------------------------------------------------------------------------- */
-console.log(typeof doesntExist); /* undefined */
+console.log(typeof doesntExist); /* undefined valor por defecto*/
+
 var v = null;
-console.log(
-  typeof v
-); /* object => es un error pero no se puede cambiar en la especificacion de es */
+console.log(typeof v); /* object */
 
 v = function () {};
 console.log(typeof v); /* function */
 
 v = [1, 2, 3];
-console.log(
-  typeof v
-); /* object al igual que null no se puede cambiar en la es es un error pero debemos aprender a trabajar con ello */
+console.log(typeof v); /* object */
 
 var v = 42n;
 console.log(typeof v); /* bigint */
