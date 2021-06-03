@@ -16,7 +16,7 @@
 - [Tipos de referencia](tipoReferencia.js)
 - [Objeto](Objetos.js)
 - [Array](array.js)
-  - [Include Some si contiene un elemento](includes-some.js)
+  - [Include(contiene el elemento?) Some(algun elemento cumple la condición?)](includes-some.js)
   - [FindIndex el indice en el que se encuentra un objeto](findIndex.js)
   - [Reduce acumular grandes valores](reduce.js)
   - [Filter retornar array q cumpla con la condición](filter.js)
