@@ -40,3 +40,5 @@ console.log(typeof v); /* object */
 
 var v = 42n;
 console.log(typeof v); /* bigint */
+
+console.log(typeof NaN); /* number */
