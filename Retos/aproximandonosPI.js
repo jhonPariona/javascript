@@ -35,5 +35,7 @@ do {
   denominador += 2;
   contador++;
   resultado = parseFloat(resultado.toFixed(4));
-  diferencia = parseFloat(Math.abs(PI - resultado).toFixed(4));
+  diferencia = parseFloat(Math.abs(resultado - PI).toFixed(4));
 } while (diferencia > 0.0005);
+
+console.log(`la cantidad de veces a iterar es ${contador}`);
