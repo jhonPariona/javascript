@@ -26,6 +26,7 @@ const PI = 3.1415;
 let diferencia = 0;
 
 do {
+  console.log("🚀>>>>>>>>>>>>>>>>>>>> bandera", bandera);
   if (bandera) {
     resultado += 4 / denominador;
   } else {
@@ -33,9 +34,12 @@ do {
   }
   bandera = !bandera;
   denominador += 2;
+  console.log("🚀 ~ denominador", denominador);
   contador++;
   resultado = parseFloat(resultado.toFixed(4));
+  console.log("🚀 resultado", resultado);
   diferencia = parseFloat(Math.abs(resultado - PI).toFixed(4));
+  console.log(`diferencia ${diferencia}`);
 } while (diferencia > 0.0005);
 
 console.log(`la cantidad de veces a iterar es ${contador}`);
