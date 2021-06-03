@@ -11,24 +11,24 @@ SumaPar , SumaImpar: Variables de tipo numérico donde se almacenará la suma de
 Contador: Variable de tipo entero que se usará para contabilizar los números impares.
 */
 
-const data = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-const length = data.length;
-let sumEvenNumbers = 0;
-let sumOddNumbers = 0;
-let numOddNumbers = 0;
-let averageOddNumbers = 0;
+const listado = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const longitud = listado.length;
+let sumaPar = 0;
+let sumaImpar = 0;
+let contador = 0;
+let promedioImpares = 0;
 
-for (let i = 0; i < data.length; i++) {
-  if (data[i] % 2 === 0) {
-    sumEvenNumbers += data[i];
+for (let i = 0; i < longitud; i++) {
+  if (listado[i] % 2 === 0) {
+    sumaPar += listado[i];
     continue;
   }
-  numOddNumbers++;
-  sumOddNumbers += data[i];
+  contador++;
+  sumaImpar += listado[i];
 }
 
-averageOddNumbers = sumOddNumbers / numOddNumbers;
+promedioImpares = sumaImpar / contador;
 
 console.log(
-  `La suma de pares es ${sumEvenNumbers} y el promedio de impares es: ${averageOddNumbers}`
+  `La suma de pares es ${sumaPar} y el promedio de impares es: ${promedioImpares}`
 );
