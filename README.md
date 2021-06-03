@@ -19,6 +19,7 @@
   - [Include Some si contiene un elemento](includes-some.js)
   - [Find Index el indice en el que se encuentra un objeto](findIndex.js)
   - [Reduce acumular grnades valores](reduce.js)
+  - [Filter retornar array q cumpla con la condición](filter.js)
 
 ## 📚Cursos
 - [Fundamentos profundos de JavaScript, v3 | FrontendMasters](https://frontendmasters.com/courses/deep-javascript-v3/)
