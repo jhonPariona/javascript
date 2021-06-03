@@ -22,6 +22,7 @@
   - [Reduce acumular grandes valores](reduce.js)
   - [Filter retornar array con los elementos q cumplan con la condición](filter.js)
   - [Find retornar array con 1 elemento q cumpla condicion](find.js)
+  - [concat unir arrays](concat.js)
 
 ## 📚Cursos
 - [Fundamentos profundos de JavaScript, v3 | FrontendMasters](https://frontendmasters.com/courses/deep-javascript-v3/)
