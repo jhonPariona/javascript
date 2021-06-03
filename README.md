@@ -17,8 +17,8 @@
 - [Objeto](Objetos.js)
 - [Array](array.js)
   - [Include Some si contiene un elemento](includes-some.js)
-  - [Find Index el indice en el que se encuentra un objeto](findIndex.js)
-  - [Reduce acumular grnades valores](reduce.js)
+  - [FindIndex el indice en el que se encuentra un objeto](findIndex.js)
+  - [Reduce acumular grandes valores](reduce.js)
   - [Filter retornar array q cumpla con la condición](filter.js)
   - [Find retornar array con el elemento q cumpla condicion](find.js)
 
